@@ -39,3 +39,10 @@ model inventory {
   model String
   price Int
 }
+
+model inventory2 {
+  id    Int    @id @default(autoincrement())
+  brand String @unique
+  model String
+  price Int
+}
